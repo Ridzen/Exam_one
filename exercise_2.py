@@ -11,10 +11,18 @@ amount = float(input('Введите сумму которую хотите по
 total = float(input('Введите сумму которую хотите получить: '))
 year_percent = float(input('Введите годовой процент: '))
 month = 0
+<<<<<<< HEAD
 
 while amount < total:
     amount *= 1 + (year_percent / 12) / 100
     amount = int(12 * amount) / 12
     month += 1
     print(month)
+=======
+>>>>>>> a8849924071e29117364da5472f834b52cb64425
 
+while amount < total:
+    amount *= 1 + (year_percent / 12) / 100
+    amount = int(12 * amount) / 12
+    month += 1
+    print(month)
